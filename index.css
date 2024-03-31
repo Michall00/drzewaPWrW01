@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Lovelo Black';
+  src: url('fonts/LoveloBlack.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Titilium';
+  src: url('fonts/TitilliumWeb-Regular.ttf') format('opentype');
+}
+
+h1 {
+  font-family: Lovelo Black;
+  font-size: 56px;
+  background-color: #f1e7d1;
+  color: #677957;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;  
+  background-size: 50%;
+  margin: 0;
+}
+
+p {
+  font-family: 'Titilium';
+  font-weight: 100;
+  font-size: 26px;
+  background-color: #677957;
+  color: #f1efeb;
+  margin-top: 0px;
+  padding: 0;
+  display: grid;
+  row-gap: 0;
+}
+
+a{
+  margin-top: 5px;
+  text-decoration: none;
+  color: #f1e7d1;
+  margin-left: 10px;
+}
+
+a#grupa_a{
+  font-family: Lovelo Black;
+  text-align: center;
+  font-size: 40px;
+}
+
+a#text:hover {
+  color: #f1efeb;
+  font-weight: bold;
+}
